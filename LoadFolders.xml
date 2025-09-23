@@ -51,7 +51,12 @@
     <li IfModActive="vanillaexpanded.vgeneticsemorelabstuff">Mods and Shit/VGE More</li>
     <li IfModActive="animal.bedsnew">Mods and Shit/More Animal Beds</li>
     <li IfModActive="sarg.alphaimplants">Mods and Shit/Alpha Implants</li>
-    <li IfModActive="reel.expanded.storage">Mods and Shit/Reel's Storage</li>
+    <li IfModNotActive="DankPyon.Medieval.Overhaul">
+        <li IfModActive="reel.expanded.storage,ferny.progressionstorage">
+            <li IfModActive="ferny.progressionstorage">Mods and Shit/Reel's Storage/Common</li>
+        </li>
+    </li>
+    <li IfModActiveAll="reel.expanded.storage,ferny.progressionstorage,dankpyon.medieval.overhaul">Mods and Shit/Reel's Storage/Progression Storage/MO</li>
     <li IfModActive="owlchemist.giddyup">Mods and Shit/Giddy Up 2</li>
     <li IfModActive="mlie.runandhide">Mods and Shit/Run and Hide</li>
     <li IfModActive="zal.animalcages">Mods and Shit/Animal Cages</li>
